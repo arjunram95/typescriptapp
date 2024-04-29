@@ -7,7 +7,7 @@ export const myDataSource = new DataSource({
   username: "postgres",
   password: "postgres",
   database: "postgres",
-  entities: ["src/entity/*.js"],
+  entities: ["src/db/entities/*.js"],
   logging: true,
   synchronize: true,
 });

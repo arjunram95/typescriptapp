@@ -1,3 +1,4 @@
+import { clear } from "console";
 import { Entity, Column, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity()

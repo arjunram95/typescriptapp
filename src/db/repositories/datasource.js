@@ -9,7 +9,7 @@ exports.myDataSource = new typeorm_1.DataSource({
     username: "postgres",
     password: "postgres",
     database: "postgres",
-    entities: ["src/entity/*.js"],
+    entities: ["src/db/entities/*.js"],
     logging: true,
     synchronize: true,
 });
